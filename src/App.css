@@ -1,0 +1,335 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.color{
+  font-size: 10px;
+  /* background-color: blue; */
+  text-align: center;
+ background-color: #61dafb;
+ height: 600px;
+ width: 100%;
+}
+.a{
+  height: 900px;
+  width: 400px;
+  border: 1px solid black;
+  padding: 30px;
+  margin-left: 550px;
+}
+.c{
+  text-align: center;
+  color: blue;
+}
+
+.b{
+  gap: "10px";
+  border: 2px solid black;
+  height: 30px;
+  width: 390px;
+  
+}
+.d{
+  text-align: center;
+  background-color: blue;
+  color: white;
+  width: 90px;
+  height: 50px;
+
+  /* padding-left: 30px; */
+}
+.e{
+  /* text-align: center; */
+  /* padding:30px ; */
+  height: 60px;
+  width: 200px;
+  text-align: center;
+  border: 1px solid black;
+  /* left: 40px; */
+
+}
+/* .button{
+  color: green;
+  font-size: 30px;
+} */
+/* .first{
+  background-color: blue;
+  height: 300px;
+  width: 450px;
+  color: white;
+  /* display: flex;
+  gap: 30px; */ */
+/* } */
+.second{
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  justify-content:space-around;
+  flex-wrap:  wrap;
+}
+.image{
+  height: 250px;
+  width: 450px;
+}
+/* .Main{
+  
+} */
+.contact{
+  /* background-color: white; */
+
+  width: 800px;
+  height: 400px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+
+  }
+.first{
+   text-align: center;
+   color: black;
+   padding: 10px;
+  
+}
+/* .Main{
+  background-color: blue;
+  height: 100vh;
+  align-items: center;
+  width: 100%;
+  background-color: red; 
+
+} */
+.left{
+  padding: 40px;
+}
+.rightside{
+  padding: 40px;
+  /* display: flex;
+  justify-content: space-between; */
+}
+.right{
+  /* padding: 40px; */
+  display:flex;
+  gap:10px
+}
+.input{
+height: 30px;
+/* width: 20px; */
+}
+.input1{
+  height: 30px;
+  margin-top: 10px;
+  width: 343px;
+}
+.button{
+  margin-top: 10px;
+}
+.red{
+  color: red;
+  font-size: 10px;
+}
+.add{
+  float: right;
+  margin-top: 10px;
+  height: 30px;
+  width: 60px;
+
+}
+.send{
+  margin-top: 10px;
+  height: 30px;
+  width: 60px;
+
+}
+.cards{
+    height: 250px;
+    width: 250px;
+  background-color:yellowgreen;
+  color: black;
+  border-radius: 20px; 
+  padding: 15px;
+  gap: 10px;
+  /* display: flex; */
+}
+.Main1{
+  
+  height: 420px;
+  width: 500px;
+ margin-top: 100px;
+ margin-left: 500px;
+ border: 1px solid black;
+}
+.heading{
+  text-align: center;
+  padding: 20px;
+  color:blue;
+}
+.question{
+  /* padding: 20px; */
+  text-align: center;
+}
+.options{
+  text-align: center;
+  padding: 20px;
+}
+.button1{
+height: 40px;
+/* background-color: blue; */
+display: flex;
+/* justify-content: space-around; */
+justify-content: space-between;
+padding: 10px;
+/* width: 30px; */
+}
+.previous{
+  height: 30px;
+  width: 70px;
+  background-color: blue;
+  color: white;
+  border: white;
+}
+.submit{
+  height: 30px;
+  width: 70px;
+  background-color: green;
+  color: white;
+  border: white;
+  
+
+}
+.submitbutton{
+  align-items: center;
+  padding-left: 220px;
+  margin-top: 20px;
+}
+.para{
+  text-align: center;
+}
+.startbutton{
+  height: 30px;
+  width: 70px;
+  /* padding-left: 220px; */
+
+
+}
+.Startpage{
+  height: 420px;
+  width: 500px;
+ margin-top: 100px;
+ margin-left: 500px;
+ border: 1px solid black;
+}
+.Start{
+  text-align: center;
+  color:blue;
+ margin-top: 160px;
+ /* margin-left: 30px; */
+
+}
+.start1{
+  display: felx;
+  justify-content: center;
+}
+.Startbutton{
+ text-align: center;
+ height: 30px;
+ width: 70px;
+margin-top: 30px;
+background-color:blue;
+color: white;
+border:1px solid white;
+}
+.completed{
+  color: green  ;
+  margin-top: 70px;
+  text-align: center;
+}
+.finalscore{
+  margin-top: 60px;
+  color: blue;
+  text-align: center;
+}
+.input2{
+  padding: 80px;
+
+}
+.email{
+  height: 30px;
+  width: 250px;
+
+}
+.password{
+  height: 30px;
+  width: 250px;
+  margin-top: 20px;
+}
+.login{
+  background-color: blue;
+  color: white;
+  border: 1px solid white;
+  height: 40px;
+  width: 70px;
+}
+.navbar{
+  height: 40px;
+  width:100%;
+  background-color: blue;
+}
+.names{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  color: white;
+  padding: 5px;
+}
+.link{
+  margin-bottom: 10px;
+  color: white;
+
+}
+.title{
+   color: blue;
+}
+.logout{
+  color:green;
+  padding-top: 150px;
+  text-align: center;
+}
+.Home{
+ color: white;
+}
+

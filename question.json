@@ -1,0 +1,17 @@
+[
+    {
+        "Question":"1.What country has the highest life expectancy?",
+        "options":["Hang Kong","Chicago","Paris","China"],
+        "answer":"A"
+    },
+    {
+        "Question":"2.What year was the United Nations established?",
+        "options":["1943","1945","1965","1960"],
+        "answer":"B"
+    },
+    {
+        "Question":"3.How many minutes are in a full week?",
+        "options":["10,067","10,080","10,089","10,094"],
+        "answer":"B"
+    }
+]
