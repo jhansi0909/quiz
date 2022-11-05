@@ -24,7 +24,7 @@ function Loginpage(){
 
     return(
         <div className="Startpage">
-            <div><h1 className="title">Lets Do</h1></div>
+            <div><h1 className="title">Let's Do</h1></div>
         <div className="input2">
         <div ><input className="email" placeholder="Email" onChange={handleChange}></input></div>
         <div className="red"> {(email=="")?((login==true)?"Please fill the requied field":" "):""}</div>

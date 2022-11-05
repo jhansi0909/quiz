@@ -39,7 +39,7 @@ function App() {
   <Route path="/Startquiz" element={<Startquiz></Startquiz>}></Route>
   <Route path="/Finalquizpage" element={<Finalquizpage></Finalquizpage>}></Route> 
   <Route path="/Home" element={<Home></Home>}></Route> 
-  <Route path="/Logout" element={<Logout></Logout>}></Route>
+  {/* <Route path="/Logout" element={<Logout></Logout>}></Route> */}
 </Routes>
 {/* <ul>
  <li><Link to="/Home">Home</Link></li>

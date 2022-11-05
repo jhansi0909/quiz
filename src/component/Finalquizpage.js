@@ -11,21 +11,18 @@ function Finalquizpage(){
         <div>
         <div className="navbar">
             <div className="names">
-                <div>Lets Do</div>
+                <div className="letsdo">Let's Do</div>
                 <div className="names">
-                <div>  <Link to="/Home" className="Home">Home</Link></div>
+                <div>  <Link to="/Startquiz" className="Home">Home</Link></div>
         <div><Link to="/Profile" className="Home">Profile</Link> </div>
-        <div><Link to="/Logout" className="Home">Logout</Link></div>
+        <div><Link to="/Loginpage" className="Home">Logout</Link></div>
                 </div></div></div>
         <div className="Startpage">
             
             <h2 className="completed">Your Quiz is successfully completed</h2>
             <h2 className="completed">Congratulations</h2>
         <div className="finalscore"><h2>Your score is : {location.state}</h2></div>
-            
-            
-
-        </div>
+            </div>
         </div>
      );
 }
